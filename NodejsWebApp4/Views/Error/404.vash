@@ -1,0 +1,7 @@
+﻿@html.extend('./Views/Layout.vash', function(model){
+
+    @html.block('body', function(model){
+        <span>404 - Page Not Found</span>
+    });
+
+});
